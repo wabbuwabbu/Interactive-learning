@@ -6,6 +6,16 @@ fetch('dictionary.json')
     })
     .catch(error => console.error('Error loading dictionary:', error));
 
+// Automatic Scrolling During Drag
+document.addEventListener('dragover', (e) => {
+    const margin = 100; // Trigger scroll when near the edges
+    if (e.clientY < margin) {
+        window.scrollBy(0, -10); // Scroll up
+    } else if (e.clientY > window.innerHeight - margin) {
+        window.scrollBy(0, 10); // Scroll down
+    }
+});
+
 // Function to initialize available words based on dictionary data
 function initializeAvailableWords(words) {
     const categoriesContainer = document.getElementById('categories-container');
