@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chinese Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Available words section -->
+        <div id="available-words-section">
+            <h2>Available Words</h2>
+            <div id="categories-container"></div>
+
+        </div>
+
+        <!-- Sentence board -->
+        <div id="sentence-board">
+            <h2>Sentence Board</h2>
+            <p id="sentence-instructions">Drag and drop cards here to form sentences.</p>
+            <div id="sentence-dropzone"></div>
+            <div id="pinyin-toggle">
+                <button onclick="togglePinyin()">Toggle Pinyin</button>
+            </div>
+            <div id="pinyin-display" style="display:none;">Pinyin will be displayed here...</div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Word details modal -->
+    <div id="word-details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="word-details"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
