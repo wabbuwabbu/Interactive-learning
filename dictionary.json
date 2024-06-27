@@ -1,7 +1,9 @@
 
 [
     { "chinese": "安", "pinyin": "ān", "meaning": "Peace<br> Quiet<br> Calm", "category": "A"},
+    { "chinese": "矮", "pinyin": "ǎi", "meaning": "Short", "category": "A"},
     { "chinese": "爱", "pinyin": "ài", "meaning": "Love", "category": "A"},
+
 
     { "chinese": "巴", "pinyin": "bā", "meaning": "Mouth", "category": "B"},
     { "chinese": "冰", "pinyin": "bīng", "meaning": "Ice", "category": "B"},
@@ -13,6 +15,7 @@
     { "chinese": "吃", "pinyin": "chī", "meaning": "To eat", "category": "C"},
     { "chinese": "春", "pinyin": "chūn", "meaning": "Spring<br>(Season)", "category": "C"},
     { "chinese": "茶", "pinyin": "chá", "meaning": "Tea", "category": "C"},
+    { "chinese": "长", "pinyin": "cháng", "meaning": "Long<br>(Length)", "category": "C"},
     { "chinese": "晨", "pinyin": "chén", "meaning": "Morning<br>Dawn", "category": "C"},
     { "chinese": "齿", "pinyin": "chǐ", "meaning": "Teeth", "category": "C"},
 
@@ -20,6 +23,7 @@
     { "chinese": "东", "pinyin": "dōng", "meaning": "East", "category": "D"},
     { "chinese": "冬", "pinyin": "dōng", "meaning": "Winter<br>(Season)", "category": "D"},
     { "chinese": "多", "pinyin": "duō", "meaning": "Many<br>Much<br>A lot", "category": "D"},
+    { "chinese": "短", "pinyin": "duǎn", "meaning": "Short<br>(Length)", "category": "D"},
     { "chinese": "朵", "pinyin": "duǒ", "meaning": "(Measure word<br>flowers & clouds)", "category": "D"},
     { "chinese": "电", "pinyin": "diàn", "meaning": "Electricity", "category": "D"},
     { "chinese": "大", "pinyin": "dà", "meaning": "Big<br>Large<br>Great", "category": "D"},
@@ -74,7 +78,6 @@
     { "chinese": "里", "pinyin": "lǐ", "meaning": "Inside", "category": "L"},
     {"chinese": "腿", "pinyin": "tuǐ", "meaning": "Leg", "category": "L"},
     { "chinese": "亮", "pinyin": "liàng", "meaning": "Bright<br> Light", "category": "L"},
-
 
     { "chinese": "吗", "pinyin": "ma", "meaning": "Yes-no question", "category": "M"},
     { "chinese": "么", "pinyin": "me", "meaning": "What", "category": "M"},
@@ -183,7 +186,6 @@
     { "chinese": "这", "pinyin": "zhè", "meaning": "This<br>Here", "category": "Z" },
     { "chinese": "最", "pinyin": "zuì", "meaning": "Most<br>The most", "category": "Z"},
     { "chinese": "做", "pinyin": "zuò", "meaning": "To-do<br>To make", "category": "Z"},
-
 
     {"chinese": "零", "pinyin": "líng", "meaning": "Zero", "category": "Numbers"},
     {"chinese": "一", "pinyin": "yī", "meaning": "One", "category": "Numbers"},
