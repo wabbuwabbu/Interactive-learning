@@ -39,7 +39,7 @@
     { "chinese": "饭", "pinyin": "fàn", "meaning": "Cooked rice<br>Meal<br>To cook<br>Make a meal", "category": "F"},
 
     { "chinese": "光", "pinyin": "guāng", "meaning": "Light<br>Ray<br>Brightness", "category": "G"},
-    { "chinese": "膏", "pinyin": "gāo", "meaning": "Tall<br>High", "category": "G"},
+    { "chinese": "高", "pinyin": "gāo", "meaning": "Tall<br>High", "category": "G"},
     { "chinese": "国", "pinyin": "guó", "meaning": "Country", "category": "G"},
     { "chinese": "个", "pinyin": "gè", "meaning": "To measure general use", "category": "G"},
     { "chinese": "更", "pinyin": "gèng", "meaning": "More<br>(Comparative degree)", "category": "G"},
