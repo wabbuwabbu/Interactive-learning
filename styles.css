@@ -187,3 +187,16 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Footer */
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+footer p {
+    margin: 10px;
+}
