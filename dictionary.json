@@ -1,13 +1,12 @@
-
 [
     { "chinese": "安", "pinyin": "ān", "meaning": "Peace<br> Quiet<br> Calm", "category": "A"},
     { "chinese": "矮", "pinyin": "ǎi", "meaning": "Short", "category": "A"},
     { "chinese": "爱", "pinyin": "ài", "meaning": "Love", "category": "A"},
 
-
     { "chinese": "巴", "pinyin": "bā", "meaning": "Mouth", "category": "B"},
     { "chinese": "冰", "pinyin": "bīng", "meaning": "Ice", "category": "B"},
     { "chinese": "北", "pinyin": "běi", "meaning": "North", "category": "B"},
+    { "chinese": "比", "pinyin": "bǐ", "meaning": "To Compare", "category": "B"},
     { "chinese": "背", "pinyin": "bèi", "meaning": "Back (of body)", "category": "B"},
     { "chinese": "鼻", "pinyin": "bì", "meaning": "Nose", "category": "B"},
     { "chinese": "不", "pinyin": "bù", "meaning": "No<br>Not", "category": "B"},
@@ -18,6 +17,7 @@
     { "chinese": "长", "pinyin": "cháng", "meaning": "Long<br>(Length)", "category": "C"},
     { "chinese": "晨", "pinyin": "chén", "meaning": "Morning<br>Dawn", "category": "C"},
     { "chinese": "齿", "pinyin": "chǐ", "meaning": "Teeth", "category": "C"},
+    { "chinese": "丑", "pinyin": "chǒu", "meaning": "Ugly", "category": "C"},
 
     { "chinese": "的", "pinyin": "de", "meaning": "Of", "category": "D"},
     { "chinese": "东", "pinyin": "dōng", "meaning": "East", "category": "D"},
@@ -25,6 +25,7 @@
     { "chinese": "多", "pinyin": "duō", "meaning": "Many<br>Much<br>A lot", "category": "D"},
     { "chinese": "短", "pinyin": "duǎn", "meaning": "Short<br>(Length)", "category": "D"},
     { "chinese": "朵", "pinyin": "duǒ", "meaning": "(Measure word<br>flowers & clouds)", "category": "D"},
+    { "chinese": "打", "pinyin": "dǎ", "meaning": "To hit<br>To beat", "category": "D"},
     { "chinese": "电", "pinyin": "diàn", "meaning": "Electricity", "category": "D"},
     { "chinese": "大", "pinyin": "dà", "meaning": "Big<br>Large<br>Great", "category": "D"},
     { "chinese": "第", "pinyin": "dì", "meaning": "Prefix to indicate<br>ordinal numbers<br>(first, second...)", "category": "D"},
@@ -62,6 +63,7 @@
     { "chinese": "极", "pinyin": "jí", "meaning": "Extreme", "category": "J"},
     { "chinese": "脚", "pinyin": "jiǎo", "meaning": "Foot", "category": "J"},
     { "chinese": "见", "pinyin": "jiàn", "meaning": "To see", "category": "J"},
+    { "chinese": "叫", "pinyin": "jiào", "meaning": "To call<br>To shout", "category": "J"},
 
     { "chinese": "颗", "pinyin": "kē", "meaning": "To measure small objects", "category": "K"},
     { "chinese": "孔", "pinyin": "kǒng", "meaning": "Hole", "category": "K"},
@@ -78,6 +80,7 @@
     { "chinese": "里", "pinyin": "lǐ", "meaning": "Inside", "category": "L"},
     {"chinese": "腿", "pinyin": "tuǐ", "meaning": "Leg", "category": "L"},
     { "chinese": "亮", "pinyin": "liàng", "meaning": "Bright<br> Light", "category": "L"},
+    { "chinese": "丽", "pinyin": "lì", "meaning": "Beautiful<br>Elegant", "category": "L"},
 
     { "chinese": "吗", "pinyin": "ma", "meaning": "Yes-no question", "category": "M"},
     { "chinese": "么", "pinyin": "me", "meaning": "What", "category": "M"},
@@ -86,6 +89,7 @@
     { "chinese": "眉", "pinyin": "méi", "meaning": "Eyebrows", "category": "M"},
     { "chinese": "们", "pinyin": "mén", "meaning": "(Plural for pronouns used for group of people)", "category": "M"},
     { "chinese": "明", "pinyin": "míng", "meaning": "Tomorrow", "category": "M"},
+    { "chinese": "美", "pinyin": "měi", "meaning": "Beautiful<br>Pretty", "category": "M"},
     { "chinese": "米", "pinyin": "mǐ", "meaning": "Rice (as a grain)<br> Meter (measurement)", "category": "M"},
     { "chinese": "面", "pinyin": "miàn", "meaning": "Noodle<br> Surface<br> Face<br> Side    ", "category": "M"},
     { "chinese": "灭", "pinyin": "miè", "meaning": "Extinguish<br>Put down", "category": "M"},
@@ -155,6 +159,7 @@
     { "chinese": "夏", "pinyin": "xià", "meaning": "Summer<br>(Season)", "category": "X"},
     { "chinese": "现", "pinyin": "xiàn", "meaning": "Now", "category": "X"},
     { "chinese": "向", "pinyin": "xiàng", "meaning": "Towards", "category": "X"},
+    { "chinese": "谢", "pinyin": "xiè", "meaning": "To express<br>gratitude", "category": "X"},
     { "chinese": "兴", "pinyin": "xìng", "meaning": "Happy", "category": "X"},
 
     { "chinese": "腰", "pinyin": "yāo", "meaning": "waist", "category": "Y"},
