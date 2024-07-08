@@ -1,4 +1,5 @@
 [
+    { "chinese": "阿", "pinyin": "ā", "meaning": "(prefix for auntie)", "category": "A"},
     { "chinese": "安", "pinyin": "ān", "meaning": "Peace<br> Quiet<br> Calm", "category": "A"},
     { "chinese": "矮", "pinyin": "ǎi", "meaning": "Short", "category": "A"},
     { "chinese": "爱", "pinyin": "ài", "meaning": "Love", "category": "A"},
@@ -7,6 +8,7 @@
     { "chinese": "冰", "pinyin": "bīng", "meaning": "Ice", "category": "B"},
     { "chinese": "北", "pinyin": "běi", "meaning": "North", "category": "B"},
     { "chinese": "比", "pinyin": "bǐ", "meaning": "To Compare", "category": "B"},
+    { "chinese": "爸", "pinyin": "bà", "meaning": "Dad<br>Father", "category": "B"},
     { "chinese": "背", "pinyin": "bèi", "meaning": "Back (of body)", "category": "B"},
     { "chinese": "鼻", "pinyin": "bì", "meaning": "Nose", "category": "B"},
     { "chinese": "不", "pinyin": "bù", "meaning": "No<br>Not", "category": "B"},
@@ -30,6 +32,7 @@
     { "chinese": "大", "pinyin": "dà", "meaning": "Big<br>Large<br>Great", "category": "D"},
     { "chinese": "第", "pinyin": "dì", "meaning": "Prefix to indicate<br>ordinal numbers<br>(first, second...)", "category": "D"},
     { "chinese": "地", "pinyin": "dì", "meaning": "Land<br>Ground<br>Earth", "category": "D"},
+    { "chinese": "弟", "pinyin": "dì", "meaning": "Younger brother", "category": "D"},
 
     { "chinese": "儿", "pinyin": "ér", "meaning": "Child", "category": "E"},
     { "chinese": "耳", "pinyin": "ěr", "meaning": "Ear", "category": "E"},
@@ -41,6 +44,7 @@
 
     { "chinese": "光", "pinyin": "guāng", "meaning": "Light<br>Ray<br>Brightness", "category": "G"},
     { "chinese": "高", "pinyin": "gāo", "meaning": "Tall<br>High", "category": "G"},
+    { "chinese": "哥", "pinyin": "gē", "meaning": "Older brother", "category": "G"},
     { "chinese": "国", "pinyin": "guó", "meaning": "Country", "category": "G"},
     { "chinese": "个", "pinyin": "gè", "meaning": "To measure general use", "category": "G"},
     { "chinese": "更", "pinyin": "gèng", "meaning": "More<br>(Comparative degree)", "category": "G"},
@@ -62,6 +66,7 @@
     { "chinese": "京", "pinyin": "jīng", "meaning": "Capital city", "category": "J"},
     { "chinese": "极", "pinyin": "jí", "meaning": "Extreme", "category": "J"},
     { "chinese": "脚", "pinyin": "jiǎo", "meaning": "Foot", "category": "J"},
+    { "chinese": "姐", "pinyin": "jiě", "meaning": "Older sister", "category": "J"},
     { "chinese": "见", "pinyin": "jiàn", "meaning": "To see", "category": "J"},
     { "chinese": "叫", "pinyin": "jiào", "meaning": "To call<br>To shout", "category": "J"},
 
@@ -84,6 +89,7 @@
 
     { "chinese": "吗", "pinyin": "ma", "meaning": "Yes-no question", "category": "M"},
     { "chinese": "么", "pinyin": "me", "meaning": "What", "category": "M"},
+    { "chinese": "妈", "pinyin": "mā", "meaning": "Mother", "category": "M"},
     { "chinese": "毛", "pinyin": "máo", "meaning": "Hair<br>(body hair or fur)", "category": "M"},
     { "chinese": "没", "pinyin": "méi", "meaning": "Not<br>(Absence or non-existence", "category": "M"},
     { "chinese": "眉", "pinyin": "méi", "meaning": "Eyebrows", "category": "M"},
@@ -93,6 +99,7 @@
     { "chinese": "米", "pinyin": "mǐ", "meaning": "Rice (as a grain)<br> Meter (measurement)", "category": "M"},
     { "chinese": "面", "pinyin": "miàn", "meaning": "Noodle<br> Surface<br> Face<br> Side    ", "category": "M"},
     { "chinese": "灭", "pinyin": "miè", "meaning": "Extinguish<br>Put down", "category": "M"},
+    { "chinese": "妹", "pinyin": "mèi", "meaning": "Younger sister", "category": "M"},
     { "chinese": "目", "pinyin": "mù", "meaning": "Eye<br>(Old Chinese)", "category": "M"},
 
     { "chinese": "男", "pinyin": "nán", "meaning": "Man<br> Male", "category": "N"},
@@ -100,11 +107,13 @@
     { "chinese": "年", "pinyin": "nián", "meaning": "Year", "category": "N"},
     { "chinese": "您", "pinyin": "nín", "meaning": "You<br>(polite form)", "category": "N" },
     { "chinese": "哪", "pinyin": "nǎ", "meaning": "Where<br> Which", "category": "N" },
+    { "chinese": "奶", "pinyin": "nǎi", "meaning": "Grandmother<br>(Father side)", "category": "N" },
     { "chinese": "你", "pinyin": "nǐ", "meaning": "You", "category": "N" },
     { "chinese": "女", "pinyin": "nǚ", "meaning": "Woman<br> Female", "category": "N"},
     { "chinese": "那", "pinyin": "nà", "meaning": "That<br> There", "category": "N" },
 
     { "chinese": "朋", "pinyin": "péng", "meaning": "Friend", "category": "P"},
+    { "chinese": "婆", "pinyin": "pó", "meaning": "Grandmother<br>(Mother side)", "category": "P"},
 
     { "chinese": "秋", "pinyin": "qiū", "meaning": "Autumn<br>(Season)", "category": "Q"},
     { "chinese": "前", "pinyin": "qián", "meaning": "Front<br> Forward<br> Ahead", "category": "Q"},
@@ -118,6 +127,7 @@
     { "chinese": "山", "pinyin": "shān", "meaning": "Mountain", "category": "S"},
     { "chinese": "身", "pinyin": "shēn", "meaning": "Body", "category": "S"},
     { "chinese": "生", "pinyin": "shēng", "meaning": "Birth<br> Life", "category": "S"},
+    { "chinese": "叔", "pinyin": "shū", "meaning": "Uncle<br>(Father side)", "category": "S"},
     { "chinese": "双", "pinyin": "shuāng", "meaning": "Double<br>Pair", "category": "S"},
     { "chinese": "舌", "pinyin": "shé", "meaning": "Tongue", "category": "S"},
     { "chinese": "什", "pinyin": "shén", "meaning": "What", "category": "S"},
@@ -165,6 +175,8 @@
     { "chinese": "腰", "pinyin": "yāo", "meaning": "waist", "category": "Y"},
     { "chinese": "牙", "pinyin": "yá", "meaning": "Teeth", "category": "Y"},
     { "chinese": "阳", "pinyin": "yáng", "meaning": "Sun<br> Sunlight", "category": "Y"},
+    { "chinese": "爷", "pinyin": "yé", "meaning": "Grandfather<br>(Father side)", "category": "Y"},
+    { "chinese": "姨", "pinyin": "yí", "meaning": "Aunt", "category": "Y"},
     { "chinese": "云", "pinyin": "yún", "meaning": "Cloud", "category": "Y"},
     { "chinese": "眼", "pinyin": "yǎn", "meaning": "Eye", "category": "Y"},
     { "chinese": "也", "pinyin": "yě", "meaning": "Also<br>Too<br>As well", "category": "Y"},
