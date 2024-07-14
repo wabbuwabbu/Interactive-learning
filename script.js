@@ -1,20 +1,13 @@
+let currentFilter = null; // Track the current category filter
+
 // Fetch the dictionary data from the JSON file
 fetch('dictionary.json')
     .then(response => response.json())
     .then(data => {
         initializeAvailableWords(data); // Initialize available words section
+        generateAlphabetButtons(); // Generate alphabet buttons
     })
     .catch(error => console.error('Error loading dictionary:', error));
-
-// Automatic Scrolling During Drag
-document.addEventListener('dragover', (e) => {
-    const margin = 100; // Trigger scroll when near the edges
-    if (e.clientY < margin) {
-        window.scrollBy(0, -10); // Scroll up
-    } else if (e.clientY > window.innerHeight - margin) {
-        window.scrollBy(0, 10); // Scroll down
-    }
-});
 
 // Function to initialize available words based on dictionary data
 function initializeAvailableWords(words) {
@@ -33,6 +26,7 @@ function initializeAvailableWords(words) {
     for (const [category, words] of Object.entries(categories)) {
         const categorySection = document.createElement('div');
         categorySection.classList.add('category-list');
+        categorySection.dataset.category = category;
 
         const categoryTitle = document.createElement('h3');
         categoryTitle.classList.add('category-title');
@@ -50,6 +44,9 @@ function initializeAvailableWords(words) {
         categorySection.appendChild(categoryContainer);
         categoriesContainer.appendChild(categorySection);
     }
+
+    // Initialize cards with category data attribute
+    initializeCards(words);
 }
 
 // Function to create a card element
@@ -84,7 +81,83 @@ function createCard(card) {
         cardElement.classList.remove('dragging');
     });
 
+    // Set the category data attribute for filtering
+    cardElement.dataset.category = card.category; // Use category for filtering
+
     return cardElement;
+}
+
+// Function to generate alphabet buttons from A to Z and a clear button
+function generateAlphabetButtons() {
+    const alphabetIndex = document.getElementById('category-index');
+    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
+    // Clear existing buttons
+    alphabetIndex.innerHTML = '';
+
+    // Create buttons for each letter in the alphabet
+    alphabet.forEach(letter => {
+        const button = document.createElement('button');
+        button.textContent = letter;
+        button.onclick = () => filterByCategory(letter);
+        alphabetIndex.appendChild(button);
+    });
+
+    // Add a clear button
+    const clearButton = document.createElement('button');
+    clearButton.textContent = 'Clear';
+    clearButton.onclick = clearFilter;
+    alphabetIndex.appendChild(clearButton);
+}
+
+// Function to filter cards based on category
+function filterByCategory(category) {
+    const categoriesContainer = document.getElementById('categories-container');
+    const categorySections = categoriesContainer.getElementsByClassName('category-list');
+
+    // If the same category is clicked again, clear the filter
+    if (currentFilter === category) {
+        clearFilter();
+        return;
+    }
+
+    // Set the current filter
+    currentFilter = category;
+
+    for (let section of categorySections) {
+        if (section.dataset.category === category) {
+            section.style.display = 'block'; // Show the matching category section
+        } else {
+            section.style.display = 'none'; // Hide non-matching category sections
+        }
+    }
+}
+
+// Function to clear the category filter
+function clearFilter() {
+    const categoriesContainer = document.getElementById('categories-container');
+    const categorySections = categoriesContainer.getElementsByClassName('category-list');
+
+    for (let section of categorySections) {
+        section.style.display = 'block'; // Show all category sections
+    }
+
+    currentFilter = null; // Reset the current filter
+}
+
+// Function to initialize the cards with category data-attribute
+function initializeCards(words) {
+    const categoriesContainer = document.getElementById('categories-container');
+    const cards = categoriesContainer.getElementsByClassName('card');
+
+    for (let card of cards) {
+        // Use the already available category data for filtering
+        const chineseChar = card.innerText.trim();
+        const entry = words.find(entry => entry.chinese === chineseChar);
+        if (entry) {
+            card.dataset.category = entry.category; // Set the category data attribute
+        }
+    }
 }
 
 // Adding drop event for sentence board
@@ -187,3 +260,6 @@ function reorderCards(event) {
         newCard.addEventListener('drop', reorderCards);
     }
 }
+
+// Initialize Pinyin display as hidden
+document.getElementById('pinyin-display').style.display = 'none';

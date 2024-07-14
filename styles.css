@@ -200,3 +200,33 @@ footer div {
 footer p {
     margin: 10px;
 }
+
+/* Category index search */
+#category-index {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#category-index button {
+    padding: 5px 10px;
+    border: 1px #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#category-index button:hover {
+    background-color: #e0e0e0;
+}
+
+#category-index button:active {
+    background-color: #d0d0d0;
+}
+
+#category-index button:focus {
+    outline: none;
+    border-color: #888;
+}
