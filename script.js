@@ -160,6 +160,16 @@ function initializeCards(words) {
     }
 }
 
+// Function to clear the sentence board
+function clearSentenceBoard() {
+    const sentenceDropzone = document.getElementById('sentence-dropzone');
+    sentenceDropzone.innerHTML = ''; // Clear all child elements
+
+    // Show instructions if no cards are left
+    const sentenceInstructions = document.getElementById('sentence-instructions');
+    sentenceInstructions.style.display = 'block';
+}
+
 // Adding drop event for sentence board
 const sentenceDropzone = document.getElementById('sentence-dropzone');
 const sentenceInstructions = document.getElementById('sentence-instructions');

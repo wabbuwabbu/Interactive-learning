@@ -124,29 +124,24 @@ body {
     height: auto;
 }
 
-/* Buttons */
+/* Buttons Container*/
 
-#pinyin-toggle {
+#buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     margin-top: 10px;
 }
 
-#pinyin-toggle button {
+#buttons-container button {
     padding: 10px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
 
-#pinyin-toggle button:hover {
-    background-color: #cccccc
-}
-
-#pinyin-display {
-    margin-top: 10px;
-    background-color: #e9ecef;
-    padding: 10px;
-    border-radius: 5px;
-    display: none;
+#buttons-container button:hover {
+    background-color: #cccccc;
 }
 
 /* Modal styles */
