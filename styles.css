@@ -59,6 +59,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
+    font-family: 'Noto Serif SC', serif;
 }
 
 .card .back {
@@ -122,6 +123,8 @@ body {
     font-size: 20px;
     width: auto;
     height: auto;
+    font-family: 'Noto Serif SC', serif;
+
 }
 
 /* Buttons Container*/
