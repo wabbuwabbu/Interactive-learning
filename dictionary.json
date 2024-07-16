@@ -6,7 +6,7 @@
 
     { "chinese": "巴", "pinyin": "bā", "meaning": "Mouth", "category": "B"},
     { "chinese": "冰", "pinyin": "bīng", "meaning": "Ice", "category": "B"},
-    { "chinese": "伯", "pinyin": "bó", "meaning": "Uncle<br>(Older - Father's side", "category": "B"},
+    { "chinese": "伯", "pinyin": "bó", "meaning": "Uncle<br>(Older - Father's side)", "category": "B"},
     { "chinese": "北", "pinyin": "běi", "meaning": "North", "category": "B"},
     { "chinese": "比", "pinyin": "bǐ", "meaning": "To Compare", "category": "B"},
     { "chinese": "爸", "pinyin": "bà", "meaning": "Dad<br>Father", "category": "B"},
@@ -47,7 +47,7 @@
     { "chinese": "光", "pinyin": "guāng", "meaning": "Light<br>Ray<br>Brightness", "category": "G"},
     { "chinese": "高", "pinyin": "gāo", "meaning": "Tall<br>High", "category": "G"},
     { "chinese": "哥", "pinyin": "gē", "meaning": "Older brother", "category": "G"},
-    { "chinese": "公", "pinyin": "gōng", "meaning": "Male", "category": "G"},
+    { "chinese": "公", "pinyin": "gōng", "meaning": "Male<br>(Mother's side Grandfather)", "category": "G"},
     { "chinese": "国", "pinyin": "guó", "meaning": "Country", "category": "G"},
     { "chinese": "个", "pinyin": "gè", "meaning": "To measure general use", "category": "G"},
     { "chinese": "更", "pinyin": "gèng", "meaning": "More<br>(Comparative degree)", "category": "G"},
@@ -86,7 +86,6 @@
     {"chinese": "脸", "pinyin": "liǎn", "meaning": "Face", "category": "L"},
     {"chinese": "两", "pinyin": "liǎng", "meaning": "Two<br>(counting objects)", "category": "L"},
     { "chinese": "里", "pinyin": "lǐ", "meaning": "Inside", "category": "L"},
-    {"chinese": "腿", "pinyin": "tuǐ", "meaning": "Leg", "category": "L"},
     { "chinese": "亮", "pinyin": "liàng", "meaning": "Bright<br> Light", "category": "L"},
     { "chinese": "丽", "pinyin": "lì", "meaning": "Beautiful<br>Elegant", "category": "L"},
 
@@ -151,6 +150,7 @@
     { "chinese": "听", "pinyin": "tīng", "meaning": "Listen", "category": "T"},
     { "chinese": "田", "pinyin": "tián", "meaning": "Field<br>Farmland", "category": "T"},
     { "chinese": "头", "pinyin": "tóu", "meaning": "Head", "category": "T"},
+    {"chinese": "腿", "pinyin": "tuǐ", "meaning": "Leg", "category": "T"},
     { "chinese": "讨", "pinyin": "tǎo", "meaning": "To ask for", "category": "T"},
     { "chinese": "体", "pinyin": "tǐ", "meaning": "Body", "category": "T"},
     { "chinese": "土", "pinyin": "tǔ", "meaning": "Earth<br>Soil", "category": "T"},
