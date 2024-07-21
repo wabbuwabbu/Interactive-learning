@@ -36,6 +36,7 @@
     { "chinese": "地", "pinyin": "dì", "meaning": "Land<br>Ground<br>Earth", "category": "D"},
     { "chinese": "弟", "pinyin": "dì", "meaning": "Younger brother", "category": "D"},
 
+    { "chinese": "饿", "pinyin": "è", "meaning": "Hungry", "category": "E"},
     { "chinese": "儿", "pinyin": "ér", "meaning": "Child", "category": "E"},
     { "chinese": "耳", "pinyin": "ěr", "meaning": "Ear", "category": "E"},
 
@@ -65,6 +66,7 @@
     { "chinese": "后", "pinyin": "hòu", "meaning": "Behind<br> Back", "category": "H"},
 
     { "chinese": "家", "pinyin": "jiā", "meaning": "Family<br> Home", "category": "J"},
+    { "chinese": "机", "pinyin": "jī", "meaning": "Machine", "category": "J"},
     { "chinese": "今", "pinyin": "jīn", "meaning": "Now<br> Today", "category": "J"},
     { "chinese": "睛", "pinyin": "jīng", "meaning": "Eyes", "category": "J"}, 
     { "chinese": "京", "pinyin": "jīng", "meaning": "Capital city", "category": "J"},
@@ -77,6 +79,7 @@
 
     { "chinese": "颗", "pinyin": "kē", "meaning": "To measure small objects", "category": "K"},
     { "chinese": "哭", "pinyin": "kū", "meaning": "To cry", "category": "K"},
+    { "chinese": "渴", "pinyin": "kě", "meaning": "Thirsty", "category": "K"},
     { "chinese": "孔", "pinyin": "kǒng", "meaning": "Hole", "category": "K"},
     { "chinese": "口", "pinyin": "kǒu", "meaning": "Mouth<br>(Old Chinese)", "category": "K"},
     { "chinese": "看", "pinyin": "kàn", "meaning": "Look", "category": "K"},
@@ -84,6 +87,7 @@
     { "chinese": "了", "pinyin": "le", "meaning": "(Action finished marker)", "category": "L"},
     {"chinese": "来", "pinyin": "lái", "meaning": "To come<br>To arrive", "category": "L"}, 
     {"chinese": "雷", "pinyin": "léi", "meaning": "Thunder", "category": "L"},
+    {"chinese": "老", "pinyin": "lǎo", "meaning": "Old", "category": "L"},
     {"chinese": "冷", "pinyin": "lěng", "meaning": "Cold", "category": "L"},
     {"chinese": "脸", "pinyin": "liǎn", "meaning": "Face", "category": "L"},
     {"chinese": "两", "pinyin": "liǎng", "meaning": "Two<br>(counting objects)", "category": "L"},
