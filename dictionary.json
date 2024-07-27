@@ -87,6 +87,7 @@
     { "chinese": "了", "pinyin": "le", "meaning": "(Action finished marker)", "category": "L"},
     {"chinese": "来", "pinyin": "lái", "meaning": "To come<br>To arrive", "category": "L"}, 
     {"chinese": "雷", "pinyin": "léi", "meaning": "Thunder", "category": "L"},
+    {"chinese": "林", "pinyin": "lín", "meaning": "Forest<br>Woods", "category": "L"},
     {"chinese": "老", "pinyin": "lǎo", "meaning": "Old", "category": "L"},
     {"chinese": "冷", "pinyin": "lěng", "meaning": "Cold", "category": "L"},
     {"chinese": "脸", "pinyin": "liǎn", "meaning": "Face", "category": "L"},
@@ -109,6 +110,7 @@
     { "chinese": "面", "pinyin": "miàn", "meaning": "Noodle<br> Surface<br> Face<br> Side", "category": "M"},
     { "chinese": "灭", "pinyin": "miè", "meaning": "Extinguish<br>Put down", "category": "M"},
     { "chinese": "妹", "pinyin": "mèi", "meaning": "Younger sister", "category": "M"},
+    { "chinese": "木", "pinyin": "mù", "meaning": "Wood<br>Tree", "category": "M"},
     { "chinese": "目", "pinyin": "mù", "meaning": "Eye<br>(Old Chinese)", "category": "M"},
 
     { "chinese": "男", "pinyin": "nán", "meaning": "Man<br> Male", "category": "N"},
@@ -133,6 +135,7 @@
     { "chinese": "热", "pinyin": "rè", "meaning": "Hot<br>Warm", "category": "R"},
     { "chinese": "日", "pinyin": "rì", "meaning": "Sun<br> Day of the month", "category": "R"},
 
+    { "chinese": "森", "pinyin": "sēn", "meaning": "Forest<br> (Dense growth of trees)", "category": "S"},
     { "chinese": "山", "pinyin": "shān", "meaning": "Mountain", "category": "S"},
     { "chinese": "身", "pinyin": "shēn", "meaning": "Body", "category": "S"},
     { "chinese": "生", "pinyin": "shēng", "meaning": "Birth<br> Life", "category": "S"},
@@ -148,6 +151,7 @@
     { "chinese": "水", "pinyin": "shuǐ", "meaning": "Water", "category": "S"},
     { "chinese": "上", "pinyin": "shàng", "meaning": "Up<br> Upwards<br> Above<br> On top of", "category": "S"},
     { "chinese": "是", "pinyin": "shì", "meaning": "To be<br>Is<br>Am<br>Are", "category": "S"},
+    { "chinese": "树", "pinyin": "shù", "meaning": "Tree", "category": "S"},
 
     { "chinese": "她", "pinyin": "tā", "meaning": "She", "category": "T" },
     { "chinese": "他", "pinyin": "tā", "meaning": "He", "category": "T" },
