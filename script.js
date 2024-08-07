@@ -90,7 +90,7 @@ function createCard(card) {
 // Function to generate alphabet buttons from A to Z and a clear button
 function generateAlphabetButtons() {
     const alphabetIndex = document.getElementById('category-index');
-    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#±'.split('');
 
     // Clear existing buttons
     alphabetIndex.innerHTML = '';
