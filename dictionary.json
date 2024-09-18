@@ -12,6 +12,7 @@
     { "chinese": "北", "pinyin": "běi", "meaning": "North", "category": "B"},
     { "chinese": "比", "pinyin": "bǐ", "meaning": "To Compare", "category": "B"},
     { "chinese": "饱", "pinyin": "bǎo", "meaning": "Full<br>Satiated", "category": "B"},
+    { "chinese": "膀", "pinyin": "bǎng", "meaning": "Shoulder<br> Upper arm", "category": "B"},
     { "chinese": "爸", "pinyin": "bà", "meaning": "Dad<br>Father", "category": "B"},
     { "chinese": "背", "pinyin": "bèi", "meaning": "Back (of body)", "category": "B"},
     { "chinese": "病", "pinyin": "bìng", "meaning": "To be sick<br>Illness<br>Disease; ", "category": "B"},
@@ -29,6 +30,7 @@
     { "chinese": "齿", "pinyin": "chǐ", "meaning": "Teeth", "category": "C"},
     { "chinese": "丑", "pinyin": "chǒu", "meaning": "Ugly", "category": "C"},
     { "chinese": "次", "pinyin": "cì", "meaning": "Time (as in occurrence)<br>Order<br>Sequence", "category": "C"},
+    { "chinese": "翅", "pinyin": "chì", "meaning": "Wing", "category": "C"},
     { "chinese": "错", "pinyin": "cuò", "meaning": "Wrong<br>Mistake", "category": "C"},
     { "chinese": "唱", "pinyin": "chàng", "meaning": "To sing", "category": "C"},
 
@@ -46,6 +48,7 @@
     { "chinese": "电", "pinyin": "diàn", "meaning": "Electricity", "category": "D"},
     { "chinese": "大", "pinyin": "dà", "meaning": "Big<br>Large<br>Great", "category": "D"},
     { "chinese": "到", "pinyin": "dào", "meaning": "To arrive", "category": "D"},
+    { "chinese": "蛋", "pinyin": "dàn", "meaning": "Egg", "category": "D"},
     { "chinese": "第", "pinyin": "dì", "meaning": "Prefix to indicate<br>ordinal numbers<br>(first, second...)", "category": "D"},
     { "chinese": "地", "pinyin": "dì", "meaning": "Land<br>Ground<br>Earth", "category": "D"},
     { "chinese": "弟", "pinyin": "dì", "meaning": "Younger brother", "category": "D"},
@@ -53,15 +56,18 @@
     { "chinese": "动", "pinyin": "dòng", "meaning": "To move", "category": "D"},
 
     { "chinese": "饿", "pinyin": "è", "meaning": "Hungry", "category": "E"},
+    { "chinese": "额", "pinyin": "é", "meaning": "Forehead", "category": "E"},
     { "chinese": "鹅", "pinyin": "é", "meaning": "Goose", "category": "E"},
     { "chinese": "儿", "pinyin": "ér", "meaning": "Child", "category": "E"},
     { "chinese": "耳", "pinyin": "ěr", "meaning": "Ear", "category": "E"},
 
     { "chinese": "非", "pinyin": "fēi", "meaning": "Not<br>non-<br>Wrong", "category": "F"},
     { "chinese": "风", "pinyin": "fēng", "meaning": "Wind", "category": "F"},
+    { "chinese": "蜂", "pinyin": "fēng", "meaning": "Bee", "category": "F"},
     { "chinese": "房", "pinyin": "fáng", "meaning": "House", "category": "F"},
     { "chinese": "发", "pinyin": "fà", "meaning": "Hair", "category": "F"},
     { "chinese": "饭", "pinyin": "fàn", "meaning": "Cooked rice<br>Meal<br>To cook<br>Make a meal", "category": "F"},
+    { "chinese": "放", "pinyin": "fàng", "meaning": "To put<br>To release<br>To let go", "category": "F"},
     { "chinese": "父", "pinyin": "fù", "meaning": "Father", "category": "F"},
 
     { "chinese": "光", "pinyin": "guāng", "meaning": "Light<br>Ray<br>Brightness", "category": "G"},
@@ -71,7 +77,7 @@
     { "chinese": "公", "pinyin": "gōng", "meaning": "Male<br>(Mother's side Grandfather)", "category": "G"},
     { "chinese": "龟", "pinyin": "guī", "meaning": "Turtle<br>Tortoise", "category": "G"},
     { "chinese": "国", "pinyin": "guó", "meaning": "Country", "category": "G"},
-    { "chinese": "狗", "pinyin": "狗", "meaning": "Dog", "category": "G"},
+    { "chinese": "狗", "pinyin": "gǒu", "meaning": "Dog", "category": "G"},
     { "chinese": "个", "pinyin": "gè", "meaning": "To measure general use", "category": "G"},
     { "chinese": "更", "pinyin": "gèng", "meaning": "More<br>(Comparative degree)", "category": "G"},
 
@@ -81,6 +87,7 @@
     { "chinese": "孩", "pinyin": "hái", "meaning": "Child<br> Kid", "category": "H"},
     { "chinese": "和", "pinyin": "hé", "meaning": "And", "category": "H"},
     { "chinese": "猴", "pinyin": "hóu", "meaning": "Monkey", "category": "H"},
+    { "chinese": "狐", "pinyin": "hú", "meaning": "Fox", "category": "H"},
     { "chinese": "火", "pinyin": "huǒ", "meaning": "Fire", "category": "H"},
     { "chinese": "好", "pinyin": "hǎo", "meaning": "Good<br> Well<br> Fine<br> Nice<br> Okay<br> All right", "category": "H"},
     { "chinese": "很", "pinyin": "hěn", "meaning": "Very", "category": "H"},
@@ -119,7 +126,9 @@
 
     { "chinese": "了", "pinyin": "le", "meaning": "(Action finished marker)", "category": "L"},
     {"chinese": "来", "pinyin": "lái", "meaning": "To come<br>To arrive", "category": "L"}, 
+    {"chinese": "狼", "pinyin": "láng", "meaning": "Wolf", "category": "L"}, 
     {"chinese": "雷", "pinyin": "léi", "meaning": "Thunder", "category": "L"},
+    {"chinese": "狸", "pinyin": "lí", "meaning": "Fox", "category": "L"},
     {"chinese": "林", "pinyin": "lín", "meaning": "Forest<br>Woods", "category": "L"},
     {"chinese": "龙", "pinyin": "lóng", "meaning": "Dragon", "category": "L"},
     {"chinese": "老", "pinyin": "lǎo", "meaning": "Old", "category": "L"},
@@ -132,6 +141,7 @@
     {"chinese": "泪", "pinyin": "lèi", "meaning": "Tears", "category": "L"},
     { "chinese": "丽", "pinyin": "lì", "meaning": "Beautiful<br>Elegant", "category": "L"},
     { "chinese": "力", "pinyin": "lì", "meaning": "Strength<br>Force", "category": "L"},
+    { "chinese": "鹿", "pinyin": "lù", "meaning": "Deer", "category": "L"},
 
     { "chinese": "吗", "pinyin": "ma", "meaning": "Yes-no question", "category": "M"},
     { "chinese": "么", "pinyin": "me", "meaning": "What", "category": "M"},
@@ -143,6 +153,7 @@
     { "chinese": "们", "pinyin": "mén", "meaning": "(Plural for pronouns used for group of people)", "category": "M"},
     { "chinese": "明", "pinyin": "míng", "meaning": "Tomorrow", "category": "M"},
     { "chinese": "马", "pinyin": "mǎ", "meaning": "Horse", "category": "M"},
+    { "chinese": "蚂", "pinyin": "mǎ", "meaning": "Ant", "category": "M"},
     { "chinese": "美", "pinyin": "měi", "meaning": "Beautiful<br>Pretty", "category": "M"},
     { "chinese": "每", "pinyin": "měi", "meaning": "Every<br>Each", "category": "M"},
     { "chinese": "米", "pinyin": "mǐ", "meaning": "Rice (as a grain)<br> Meter (measurement)", "category": "M"},
@@ -151,6 +162,7 @@
     { "chinese": "面", "pinyin": "miàn", "meaning": "Noodle<br> Surface<br> Face<br> Side", "category": "M"},
     { "chinese": "灭", "pinyin": "miè", "meaning": "Extinguish<br>Put down", "category": "M"},
     { "chinese": "妹", "pinyin": "mèi", "meaning": "Younger sister", "category": "M"},
+    { "chinese": "蜜", "pinyin": "mì", "meaning": "Honey", "category": "M"},
     { "chinese": "木", "pinyin": "mù", "meaning": "Wood<br>Tree", "category": "M"},
     { "chinese": "目", "pinyin": "mù", "meaning": "Eye<br>(Old Chinese)", "category": "M"},
 
@@ -170,6 +182,7 @@
     { "chinese": "那", "pinyin": "nà", "meaning": "That<br> There", "category": "N" },
 
     { "chinese": "朋", "pinyin": "péng", "meaning": "Friend", "category": "P"},
+    { "chinese": "皮", "pinyin": "pí", "meaning": "Skin<br>Peel", "category": "P"},
     { "chinese": "婆", "pinyin": "pó", "meaning": "Grandmother<br>(Mother side)", "category": "P"},
     { "chinese": "跑", "pinyin": "pǎo", "meaning": "To run", "category": "P"},
 
@@ -184,6 +197,7 @@
     { "chinese": "人", "pinyin": "rén", "meaning": "Person<br> People", "category": "R"},
     { "chinese": "热", "pinyin": "rè", "meaning": "Hot<br>Warm", "category": "R"},
     { "chinese": "日", "pinyin": "rì", "meaning": "Sun<br> Day of the month", "category": "R"},
+    { "chinese": "肉", "pinyin": "ròu", "meaning": "Meat<br>Flesh", "category": "R"},
 
     { "chinese": "森", "pinyin": "sēn", "meaning": "Forest<br> (Dense growth of trees)", "category": "S"},
     { "chinese": "山", "pinyin": "shān", "meaning": "Mountain", "category": "S"},
@@ -247,6 +261,7 @@
     { "chinese": "洗", "pinyin": "xǐ", "meaning": "To wash<br>To clean", "category": "X"},
     { "chinese": "小", "pinyin": "xiǎo", "meaning": "Small<br> Little<br> Tiny", "category": "X"},
     { "chinese": "想", "pinyin": "xiǎng", "meaning": "To think<br>To want<br>To miss", "category": "X"},
+    { "chinese": "血", "pinyin": "xiě", "meaning": "Blood", "category": "X"},
     { "chinese": "雪", "pinyin": "xuě", "meaning": "Snow", "category": "X"},
     { "chinese": "下", "pinyin": "xià", "meaning": "Down<br> Downwards<br> Below<br> Under", "category": "X"},
     { "chinese": "夏", "pinyin": "xià", "meaning": "Summer<br>(Season)", "category": "X"},
@@ -267,6 +282,7 @@
     { "chinese": "羊", "pinyin": "yáng", "meaning": "Goat<br>Sheep", "category": "Y"},
     { "chinese": "爷", "pinyin": "yé", "meaning": "Grandfather<br>(Father side)", "category": "Y"},
     { "chinese": "姨", "pinyin": "yí", "meaning": "Aunt", "category": "Y"},
+    { "chinese": "蚁", "pinyin": "yí", "meaning": "Ant", "category": "Y"},
     { "chinese": "鱼", "pinyin": "yú", "meaning": "Fish", "category": "Y"},
     { "chinese": "云", "pinyin": "yún", "meaning": "Cloud", "category": "Y"},
     { "chinese": "眼", "pinyin": "yǎn", "meaning": "Eye", "category": "Y"},
@@ -286,8 +302,10 @@
     { "chinese": "运", "pinyin": "yùn", "meaning": "To move<br>To transport<br>To carry", "category": "Y"},
 
     { "chinese": "只", "pinyin": "zhī", "meaning": "To measure animals & some objects", "category": "Z"},
+    { "chinese": "蜘", "pinyin": "zhī", "meaning": "Spider", "category": "Z"},
     { "chinese": "中", "pinyin": "zhōng", "meaning": "Middle<br> Center<br> Central", "category": "Z"},
     { "chinese": "猪", "pinyin": "zhū", "meaning": "Pig", "category": "Z"},
+    { "chinese": "蛛", "pinyin": "zhū", "meaning": "Spider", "category": "Z"},
     { "chinese": "昨", "pinyin": "zuó", "meaning": "Yesterday", "category": "Z"},
     { "chinese": "足", "pinyin": "zú", "meaning": "Foot<br>(Old Chinese)", "category": "Z"},
     { "chinese": "早", "pinyin": "zǎo", "meaning": "Morning<br>Early", "category": "Z"},
