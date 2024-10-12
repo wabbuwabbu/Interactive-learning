@@ -17,6 +17,14 @@ Interactive-learning is a web-based application aimed at improving your language
 - User-friendly interface
 - Responsive design
 
+### Future implementations
+
+1. <b>Card Practice:<b> Display a random card from the dictionary for user recognition, with four response buttons: (a) Know it, (b) Review, (c) Practice, (d) Forgot. Color-code the cards based on the selected option in the main index.
+
+2. <b>Phrase Dictionary:<b> Create a new dictionary with phrases of varying difficulty that incorporates all words from the card dictionary.
+
+3. <b>Card Counter:<b> Track the number of cards learned.
+
 ## Usage <a name="usage"></a>
 
 You can use the application in two ways:
